@@ -1,0 +1,18 @@
+select.form-control {
+  border-radius: 2px;
+  border: solid 1px var(--primary);
+  height: calc(2em + 0.75rem + 2px);
+}
+
+.ng-select.ng-select-single .ng-select-container {
+    height: 46px;
+    border: 1px solid $primary;
+}
+
+.ng-select.ng-select-focused:not(.ng-select-opened)>.ng-select-container {
+    border-color: $primary;
+}
+
+.ng-select .ng-select-container .ng-value-container .ng-input>input {
+    height: 34px;
+}

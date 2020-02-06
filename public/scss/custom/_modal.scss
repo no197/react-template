@@ -1,0 +1,14 @@
+@import "./../breakpoints.scss";
+
+.modal-dialog {
+  margin: 0 !important;
+
+  @include lg {
+    margin: auto !important;
+  }
+
+  .modal-content {
+    background: transparent;
+    border: none;
+  }
+}

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import store from "./store";
 import * as Containers from "./containers/ index";
 import { NotFound } from "./components";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

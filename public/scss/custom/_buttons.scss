@@ -1,0 +1,20 @@
+.btn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  &.rounded-24 {
+    border-radius: 24px;
+  }
+
+  &.rounded-28 {
+    border-radius: 28px;
+  }
+
+  &.font-20 {
+    font-size: 20px;
+  }
+
+  &.rounded-bottom-0 {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
