@@ -1,5 +1,5 @@
-import Example from "./Example/Example";
-import HomePage from "./HomePage/HomePage";
-import ProductsPage from "./ProductsPage/ProductsPage";
+import Admin from "./Admin/Admin";
+import Clients from "./Clients/Clients";
 
-export { Example, HomePage, ProductsPage };
+
+export { Admin, Clients };
