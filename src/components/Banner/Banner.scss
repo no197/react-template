@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap");
+@import "../../assets/scss/breakpoints";
+
+.fodde-banner {
+  background-image: url("../../assets/images/bg-home-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  @include sm {
+    height: 80vh;
+  }
+
+  .fodde-sologan {
+    margin-top: 150px;
+    font-family: "Ma Shan Zheng", cursive !important;
+    color: #ad8d63 !important;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+    @include sm {
+      margin-top: 0;
+      font-size: 100px;
+    }
+  }
+}

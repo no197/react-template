@@ -1,123 +1,207 @@
-.harvee-navbar {
-    background: #ffffff;
-  
-    button {
-      &:focus {
-        box-shadow: none;
-      }
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap");
+
+.fodde-navbar {
+  z-index: 20;
+  background: #ffffff;
+
+  .btn {
+    box-shadow: none !important;
+  }
+
+  button {
+    &:focus {
+      box-shadow: none;
     }
-  
-    .harvee-search-bar {
-      input {
-        background: #eeeeee;
-        color: blue;
-        height: 40px;
-        width: 90%;
-        border-radius: 5px;
-        border: none;
-  
-        &:hover,
-        &:active,
-        &:focus {
-          outline: none;
-        }
-      }
-  
-      label {
-        cursor: pointer;
-        position: relative;
-        right: 30px;
-      }
-    }
-  
-    .harvee-logo {
-      cursor: pointer;
-      margin-top: 10px;
-      width: 150px;
-    }
-  
-    .harvee-logo-scroll {
-        width: 100px;
-    }
-  
-    .harvee-hotline {
-      border-right: 1px #eeeeee solid;
-    }
-  
-    .harvee-cart {
-      font-size: 40px;
-      color: blue;
-    }
-  
-    .harvee-cart-detail {
-      position: absolute;
-      right: 50px;
-      height: 500px;
-      width: 300px;
-      display: none;
-      background: white;
-      box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
-      border: 1px solid #f0f0f0;
-      border-top-width: 2px;
-      z-index: 1;
-      border-top-color: blue;
-    }
-  
-    .harvee-category-detail {
-      position: absolute;
-      right: -15%;
-      height: 300px;
-      width: 300px;
-      display: none;
-      background: white;
-      box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
-      border: 1px solid #f0f0f0;
-      border-top-width: 2px;
-      border-top-color: blue;
-      z-index: 1;
-    }
-  
-    .harvee-nav-link {
+  }
+
+  .fodde-search-bar {
+    input {
       background: #eeeeee;
-      a {
-        cursor: pointer;
-        font-size: 17px;
-        font-weight: 700;
-        color: #212121 !important;
+      color: black;
+      height: 40px;
+      width: 90%;
+      border-radius: 5px;
+      border: none;
+
+      &:hover,
+      &:active,
+      &:focus {
+        outline: none;
       }
     }
-  
-    .harvee-navbar-scroll {
-      a {
-        font-size: 15px !important;
-      }
-      background: #ffffff !important;
-      box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
-      z-index: 20;
-      position: fixed;
-      top: -60px;
+
+    label {
+      cursor: pointer;
+      position: relative;
+      right: 30px;
     }
-  
-    .harvee-nav-mobile {
-      background: #ffffff !important;
-      position: fixed;
-      box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
-      z-index: 200;
-  
-      .navbar-toggler {
-        margin-top: 12px;
-        background: blue !important;
-      }
-  
-      .navbar-toggler-icon {
-        background: #ffffff !important;
-        height: 5px;
-        display: block;
+  }
+
+  .fodde-logo {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 190px;
+  }
+
+  .fodde-logo-scroll {
+    width: 100px;
+  }
+
+  .fodde-hotline {
+    border-right: 1px #eeeeee solid;
+    color: #ad8d63;
+  }
+
+  .fodde-cart {
+    font-size: 40px;
+    color: #ad8d63;
+  }
+
+  .fodde-cart-detail {
+    position: absolute;
+    right: 50px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    background: white;
+    box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+    border-top-width: 2px;
+    z-index: 1;
+    border-top-color: black;
+  }
+
+  .fodde-category-detail {
+    position: absolute;
+    right: -15%;
+    height: 300px;
+    width: 300px;
+    display: none;
+    background: white;
+    box-shadow: 0 29px 28px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+    border-top-width: 2px;
+    border-top-color: black;
+    z-index: 1;
+  }
+
+  .fodde-nav-link {
+    background: #eeeeee;
+    a {
+      cursor: pointer;
+      font-size: 17px;
+      font-weight: 700;
+      color: black;
+
+      &:hover {
+        background-color: black;
+        transition-duration: 0.3s;
+        color: #ad8d63;
       }
     }
   }
-  
-  .test {
-    top: 0 !important;
-    transition: ease-in-out .4s;
+
+  .fodde-hover {
+    &:hover {
+      cursor: pointer;
+      background-color: black;
+      transition-duration: 0.3s;
+
+      a {
+        color: #ad8d63 !important;
+      }
+    }
   }
+
+  .fodde-sologan {
+    font-size: 30px;
+    color: #ad8d63;
+    font-family: "Ma Shan Zheng", cursive !important;
+  }
+
+  .fodde-navbar-scroll {
+    a {
+      cursor: pointer;
+      font-size: 17px;
+      font-weight: 700;
+      color: black;
+    }
+
+    background: #ffffff !important;
+    z-index: 20;
+    position: fixed;
+    top: -60px;
+  }
+
+  .fodde-nav-mobile {
+    background: #ffffff !important;
+    position: fixed;
+    z-index: 200;
+
+    .navbar-toggler {
+      margin-top: 12px;
+      background: black !important;
+    }
+
+    .navbar-toggler-icon {
+      background: #ffffff !important;
+      height: 5px;
+      display: block;
+    }
+  }
+}
+
+.fodde-navbar-mobile {
+  z-index: 20;
+  a {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ad8d63;
+  }
+
+  .fodde-stretch-nav {
+    height: 100vh;
+    width: 100%;
+    padding: 70px 40px 0 0;
+    transform: translateX(100%);
+    transition-duration: 0.4s;
+  }
+
+  .fodde-stretch-active {
+    transform: translateX(10%);
+    transition-duration: 0.4s;
+  }
+
+  .fodde-stretch-icon-active {
+    transform: translateX(-265%);
+    transition-duration: 0.4s;
+  }
+
+  .fodde-logo-mobile {
+    width: 110px;
+    transition-duration: 0.4s;
+  }
+
+  .fodde-logo-section {
+    transition-duration: 0.4s;
+  }
+
+  .btn-bars {
+    transition-duration: 0.4s;
+    i {
+      color: #ad8d63;
+      font-size: 25px;
+      line-height: 2;
+    }
+
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+.on-stretch {
+  top: 0 !important;
+  transition: ease-in-out 0.4s;
+}

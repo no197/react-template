@@ -1,6 +1,20 @@
 @import "../src/assets/scss/fodde-main.scss";
 @import "../src/assets/scss/fontawesome/css/all.css";
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 * {
-    font-family: 'PT Sans', sans-serif;;
+  font-family: "PT Sans", sans-serif;
+}
+
+.bg-fodde {
+  background-color: black;
+}
+
+.btn-fodde-dark {
+  background: black;
+  color: #ad8d63;
+
+  &:hover {
+    background: #ad8d63;
+    color: black;
+  }
 }
